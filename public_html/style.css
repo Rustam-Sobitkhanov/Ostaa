@@ -1,3 +1,14 @@
+/*
+Author: Rustambek Sobithanov
+This CSS file defines styles for the Ostaa application, including background color and font family for the body,
+width and centering for the container, and styles for form labels, inputs, and submit buttons.
+
+The styles also define the page title and the hr element.
+
+The file uses a box-sizing property to ensure that the padding and border of form inputs are included in the total
+width and height of the elements.
+*/
+
 /* Set body background color and font family */
 body {
     background-color: yellowgreen;

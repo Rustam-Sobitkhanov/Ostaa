@@ -1,3 +1,11 @@
+/**
+ Author: Rustambek Sobithanov
+ This script defines a Node.js web server that connects to a MongoDB Atlas cluster
+ and serves an API that allows users to perform CRUD (Create, Read, Update, Delete) operations
+ on items and users. The API allows users to add and search for items, as well as retrieve listings
+ and purchase history for specific users. The server also serves a static HTML file for the home page.
+ */
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -176,10 +184,6 @@ app.get('/get/purchases/:username', async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 });
-
-
-
-
 
 app.listen(3000, () => {
     console.log('Server is listening on port 3000...');
