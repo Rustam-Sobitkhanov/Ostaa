@@ -1,0 +1,61 @@
+/* Set body background color and font family */
+body {
+    background-color: yellowgreen;
+    font-family: Arial, sans-serif;
+}
+
+/* Set container width and center it on the page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style form labels and inputs */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the page title */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Style the hr element */
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 50px 0;
+}
